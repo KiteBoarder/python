@@ -11,3 +11,13 @@ for i, number in enumerate(numbers):
     print(i * 2, number)
     
 ```
+
+## for loop reversed:
+```
+for i in reversed(range(101)):
+    print(i) # prints 100 to 0 
+
+# another way. note: the first parameter is always inclusive, the second always exclusive:    
+for i in range(100,-1,-1):
+    print(i) # prints 100 to 0
+```
