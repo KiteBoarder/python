@@ -21,3 +21,10 @@ for i in reversed(range(101)):
 for i in range(100,-1,-1):
     print(i) # prints 100 to 0
 ```
+
+## return statement one line:
+```
+return min(arr) if arr else 0
+```
+Notes: empty arr [] is false.  
+min returns the min of an array too. 
