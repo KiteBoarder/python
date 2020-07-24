@@ -32,5 +32,7 @@ min returns the min of an array too.
 ## array initialization
 ```
  arr = [ [0]*3 for i in range(3)]
+ 
+ d3 = [[[0 for col in range(4)]for row in range(4)] for x in range(6)]
 ``` 
  
