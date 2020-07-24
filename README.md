@@ -28,3 +28,9 @@ return min(arr) if arr else 0
 ```
 Notes: empty arr [] is false.  
 min returns the min of an array too. 
+
+## array initialization
+```
+ arr = [ [0]*3 for i in range(3)]
+``` 
+ 
