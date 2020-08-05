@@ -6,11 +6,25 @@ When we define multiple functions with the same name, the later one always overr
 
 
 ## for loop: 
+
+### for loop with index, number 
 ```
 for i, number in enumerate(numbers):
     print(i * 2, number)
     
 ```
+### for loop on pairs:
+```
+ [(a, 1) for (a,b) in intervals] + [(b, -1) for (a,b) in intervals]   
+```
+
+## sorting:
+### sort array of pairs
+```
+arr.sort(key=lambda x: (x[0], x[1]))
+```
+
+
 
 ## for loop reversed:
 ```
