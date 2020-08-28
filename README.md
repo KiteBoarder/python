@@ -50,3 +50,14 @@ min returns the min of an array too.
  d3 = [[[0 for col in range(4)]for row in range(4)] for x in range(6)]
 ``` 
  
+ ## nested function
+ ### nonlocal variable
+ In python 3.x:
+ ```
+ def f1():
+        x = 5
+        def f2():
+                nonlocal x
+                x+=1
+        return f2
+ ```
