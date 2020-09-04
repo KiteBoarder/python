@@ -24,6 +24,10 @@ for i, number in enumerate(numbers):
 arr.sort(key=lambda x: (x[0], x[1]))
 ```
 
+### min function with lambda: 
+```
+    closest = min(closest, node.val, key = lambda x: abs(x - target))
+```
 
 
 ## for loop reversed:
