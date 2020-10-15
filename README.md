@@ -65,3 +65,21 @@ min returns the min of an array too.
                 x+=1
         return f2
  ```
+
+
+ ## Max Heap
+ default heapq in python is min heap. 
+```
+import heapq
+
+class MaxHeapObj(object):
+  def __init__(self, val): self.val = val
+  def __lt__(self, other): return self.val > other.val
+```
+Example of a max-heap:
+```
+maxh = []
+heapq.heappush(maxh, MaxHeapObj(x))
+x = maxh[0].val  # fetch max value
+x = heapq.heappop(maxh).val  # pop max value
+```
