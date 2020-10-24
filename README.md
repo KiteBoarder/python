@@ -18,6 +18,12 @@ for i, number in enumerate(numbers):
  [(a, 1) for (a,b) in intervals] + [(b, -1) for (a,b) in intervals]   
 ```
 
+### for loop string: 
+```
+for c in "string":
+    #do something with c
+```
+
 ## sorting:
 ### sort array of pairs
 ```
