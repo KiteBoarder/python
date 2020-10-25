@@ -24,6 +24,13 @@ for c in "string":
     #do something with c
 ```
 
+### for loop two arrays simultaneously: 
+```
+for f, b in zip(foo, bar):
+    print(f, b)
+```
+zip stops when the shorter of foo or bar stops.
+
 ## sorting:
 ### sort array of pairs
 ```
