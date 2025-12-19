@@ -16,7 +16,19 @@ gen = numbers()
 next(gen)  # 1
 next(gen)  # 2
 next(gen)  # 3
+```
+return vs yield
+```
+# return
+def f():
+    return 1
+    return 2  # never executed
 
+# yield
+def g():
+    yield 1
+    yield 2
+```
 
 ## function overloading:
 Python doesn't support function overloading.  
