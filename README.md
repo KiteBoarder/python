@@ -1,3 +1,21 @@
+## Q: What does `yield` do in Python?
+
+`yield` pauses a function, returns a value, and resumes execution from the same
+point on the next call. A function that uses `yield` becomes a **generator**.
+
+### Example
+
+```python
+def numbers():
+    yield 1
+    yield 2
+    yield 3
+
+gen = numbers()
+
+next(gen)  # 1
+next(gen)  # 2
+next(gen)  # 3
 
 
 ## function overloading:
