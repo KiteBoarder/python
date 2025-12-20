@@ -29,6 +29,7 @@ def g():
     yield 1
     yield 2
 ```
+---
 
 ## function overloading:
 Python doesn't support function overloading.  
